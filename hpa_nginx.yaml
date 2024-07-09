@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-nginx
+  name: hpa-index
 spec:
   maxReplicas: 10
   minReplicas: 2
@@ -14,7 +14,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-nginx
+  name: hpa-join
 spec:
   maxReplicas: 10
   minReplicas: 2
@@ -27,7 +27,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-nginx
+  name: hpa-login
 spec:
   maxReplicas: 10
   minReplicas: 2
@@ -40,7 +40,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-nginx
+  name: hpa-menu
 spec:
   maxReplicas: 10
   minReplicas: 2
@@ -53,7 +53,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: hpa-nginx
+  name: hpa-mypage
 spec:
   maxReplicas: 10
   minReplicas: 2
