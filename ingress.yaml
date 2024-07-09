@@ -52,7 +52,3 @@ spec:
             name: mypage-service
             port:
               number: 80
-status:
-  loadBalancer:
-    ingress:
-    - ip: 192.168.56.100
